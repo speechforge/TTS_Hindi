@@ -1,0 +1,6 @@
+# Optional dependencies for model.encoder_type = "mamba".
+# Install these only after CUDA-enabled PyTorch is already installed.
+#
+# Keep this pinned to the Mamba 1.x line for the current Torch 2.1/CUDA 11.x
+# training environment. Newer Mamba releases can pull newer Triton/CUDA/Torch
+# dependency stacks that are not appropriate for this repo environment.
